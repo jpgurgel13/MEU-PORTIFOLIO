@@ -30,6 +30,14 @@
 .cabecalho__menu__link:hover::after {
   width: 100%;
 }
+@media (max-width: 380px) {
+  .cabecalho__titulo {
+    font-size: 15px;
+  }
+  .cabecalho__menu__link {
+    font-size: 15px;
+  }
+}
 @media (min-width: 768px) {
   .cabecalho {
     margin: 2rem;

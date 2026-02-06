@@ -1,0 +1,42 @@
+@import url(./header.css);
+@import url(./home.css);
+@import url(./carrossel.css);
+@import url(./projetos.css);
+@import url(./about.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --vermelho: #e10600;
+  --preto-principal: #0e0e10;
+  --preto-secundario: #18181b;
+  --texto-secundario: ##d1d1d1;
+  --branco: #f5f5f5;
+  --azul: #1e3a8a;
+  --fonte-principal: "Bebas Neue";
+  --fonte-secundaria: "inter";
+}
+body {
+  background: linear-gradient(180deg, #0e0e10 0%, #0b1220 100%);
+  color: var(--branco);
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+  font-size: 16px;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--fonte-principal);
+}
+.rodape {
+  background-color: var(--preto-secundario);
+}
+.rodape__texto {
+  padding: 1em;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .rodape {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,41 @@
+
+.carrossel__titulo {
+  text-align: center; 
+  text-transform: uppercase; 
+  font-size: 18px; 
+  font-weight: 500; 
+  padding: 1em 0 0.5em 0; 
+}
+
+.swiper-slide img {
+  width: 100%; 
+  display: block; 
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none; 
+}
+
+.swiper .swiper-pagination {
+  position: relative; 
+  bottom: auto; 
+  text-align: center; 
+  margin-top: 0.5em; 
+  margin-bottom: 0.5em; 
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 16px; 
+  height: 3px; 
+  border-radius: 2px; 
+  background: var(--azul); 
+  opacity: 0.5; 
+  transition: all 0.3s ease; 
+}
+
+.swiper .swiper-pagination-bullet-active {
+  width: 23px; 
+  background: var(--vermelho); /
+  opacity: 1; 
+}

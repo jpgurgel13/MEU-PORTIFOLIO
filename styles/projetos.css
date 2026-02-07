@@ -79,7 +79,6 @@
   box-shadow: 0 6px 18px rgba(72, 1, 1, 0.45);
   transition: 0.3s ease;
 }
-
 @media (min-width: 768px) {
   section.projeto .projeto__container {
     grid-template-columns: repeat(2, 1fr); /* garante 2 colunas */

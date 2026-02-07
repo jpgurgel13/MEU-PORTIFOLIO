@@ -5,9 +5,12 @@
   align-items: center;
 }
 .cabecalho__titulo {
-  background: linear-gradient(to bottom, #ff4d4d, var(--vermelho));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--vermelho);
+}
+.cabecalho__titulo:hover {
+  color: var(--azul);
+  transform: translateY(-4px);
+  transition: 0.3s ease;
 }
 .cabecalho__menu__link {
   text-decoration: none;

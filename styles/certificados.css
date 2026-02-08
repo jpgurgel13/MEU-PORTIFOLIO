@@ -55,7 +55,9 @@
 .certificado__texto {
   font-size: 1rem;
 }
-
+main {
+  background: linear-gradient(180deg, #0e0e10 0%, #0b1220 100%);
+}
 @media (min-width: 768px) {
   .certificado__container {
     grid-template-columns: 1fr 1fr;
